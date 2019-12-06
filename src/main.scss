@@ -1,0 +1,67 @@
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+.arrow-div {
+  .btn {
+    width: 35px;
+    img {
+      width: 30px;
+      height: 25px;
+      margin-left: -4px;
+    }
+  }
+}
+
+.indicator-div {
+  position: relative;
+  margin-left: 10%;
+  ul {
+    list-style: none;
+    li {
+      float: left;
+      margin: 0px 10px;
+    }
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: black;
+    opacity: 0.2;
+    cursor: pointer;
+    position: relative;
+  }
+  .dot-selected {
+    opacity: 0.7;
+    cursor: default;
+  }
+  .indicator-btn {
+    position: absolute;
+    left: 0px;
+    padding: 0px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
